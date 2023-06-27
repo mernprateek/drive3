@@ -1,0 +1,71 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.primary-button {
+  background-color: #007bff;
+}
+
+.secondary-button {
+  background-color: #dc3545;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+  background-color: #0056b3;
+}
+
+.drive-data-container {
+  margin-top: 20px;
+}
+
+.drive-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.drive-data-table th,
+.drive-data-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.drive-data-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.drive-data-table td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.drive-data-table td a:hover {
+  text-decoration: underline;
+}
+
+.drive-data-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
